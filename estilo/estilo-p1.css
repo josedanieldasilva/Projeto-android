@@ -51,7 +51,7 @@ header > p{
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 20px;
     text-shadow: 2px 2px 0px #00000081;
 }
 nav{
@@ -60,17 +60,17 @@ nav{
     box-shadow: 0px 10px 10px #00000069;
 }
 nav > a{
-    color: white;
+    color: #b8fac8;
     text-decoration: none;
     padding: 10px;
-    font-weight: bold;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px #00000046;
     transition-duration: .8s;
 }
 nav > a:hover{
     background-color: var(--cor04);
     color: var(--cor06);
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 main{
     background-color: white;
@@ -112,7 +112,8 @@ main a{
     text-decoration: none;
     font-weight: bold;
     background-color: var(--cor02);
-    padding: 7px 5px;
+    padding: 4px 3px;
+    margin: 3px 2px;
 }
 main a:hover{
     text-decoration: underline;
